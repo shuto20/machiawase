@@ -1,0 +1,24 @@
+/* 利用規約・プライバシーポリシー・お問い合わせ（読み物のページ） */
+body.doc { display: block; }
+.doc main { max-width: 720px; margin: 0 auto; min-height: 0; padding: 32px 20px 40px; display: block; }
+.doc .top { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; border-bottom: 1px solid var(--line); padding-bottom: 14px; }
+.doc .top a.brand img { height: 34px; width: auto; display: block; }
+.doc .top a.brand { color: var(--ink); text-decoration: none; font-size: 22px; font-weight: 200; letter-spacing: 2px; }
+.doc .top nav { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; }
+.doc .top nav a { color: var(--sub); text-decoration: none; }
+.doc .top nav a[aria-current] { color: var(--ink); }
+.doc h1 { font-size: 26px; font-weight: 300; letter-spacing: 1px; margin-top: 28px; }
+.doc h2 { font-size: 16px; font-weight: 600; margin-top: 32px; }
+.doc p, .doc li, .doc td, .doc th { font-size: 14px; line-height: 1.9; color: #d6d6db; }
+.doc p { margin-top: 10px; }
+.doc ol, .doc ul { padding-left: 1.4em; margin-top: 8px; }
+.doc a { color: var(--ok); }
+.doc b { color: var(--ink); }
+.doc .wide { overflow-x: auto; margin-top: 12px; }
+.doc table { border-collapse: collapse; width: 100%; min-width: 520px; }
+.doc th, .doc td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; font-size: 13px; }
+.doc th { color: var(--sub); font-weight: 500; }
+.doc .card { margin-top: 12px; padding: 16px 18px; border-radius: 16px; }
+.doc .card p { margin-top: 4px; }
+.doc .note { color: var(--sub); font-size: 12px; margin-top: 28px; line-height: 1.8; }
+.doc footer { margin-top: 40px; }

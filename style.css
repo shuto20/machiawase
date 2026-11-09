@@ -10,6 +10,8 @@ main { width: 100%; max-width: 440px; min-height: 100dvh; padding: 48px 24px 32p
 .rings { position: relative; height: 150px; margin-bottom: 28px; }
 .rings i { position: absolute; border-radius: 50%; border: 1.5px solid; }
 h1 { font-size: 40px; font-weight: 200; letter-spacing: 2px; }
+h1.logo { line-height: 0; margin-bottom: 4px; }
+h1.logo img { height: 90px; width: auto; }
 .lead { color: var(--sub); line-height: 1.9; margin-top: 12px; font-size: 15px; }
 .card { margin-top: 36px; border: 1px solid var(--line); border-radius: 22px; padding: 22px; }
 .card h2 { font-size: 18px; font-weight: 600; }
